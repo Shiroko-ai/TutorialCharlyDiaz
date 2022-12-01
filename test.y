@@ -28,7 +28,7 @@ stmts:
 
 stmt:
 		STRING {
-				printf("Has inrgesado un string - %s", $1);
+				printf("Has ingresado un string - %s", $1);
 		}
 		| NUM {
 				printf("El numero que ingresaste es - %d", $1);
